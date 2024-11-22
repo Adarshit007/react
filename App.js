@@ -1,16 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-//react.createlement((creates an objext ))=> html(which a brower can understand)
+// React Element=> Object =>  HTML Element(render)
 
-const parent =React.createElement('div',{id:'parent'},
-    [React.createElement('div',{id:'child'},
-        [React.createElement( 'h1',{},'I am a h1 Tag'),
-        React.createElement('h2',{},'I am a h2 Tag')]),
-        React.createElement('div',{id:'child2'},
-            React.createElement('h1',{},'I am a h1 Tag'))])
-console.log(parent);
+const heading = React.createElement('h1',{id:'heading'},"Hello React From Adarshit")
+//jsx
 
-
-const heading = React.createElement("h1" ,{id:'heading'} ,"Hello World from React !")
-        const root= ReactDOM.createRoot(document.getElementById('root'))
-
-        root.render(parent);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(heading);  
