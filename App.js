@@ -11,6 +11,8 @@ import ReactDOM from 'react-dom/client';
  *  - Search
  *  - RestaurantContainer
  *    - RestaurantCard
+ *      - image
+ *       -name,star,cuisine,delivery time
  * Footer
  * -links
  * -copyright
@@ -37,6 +39,14 @@ const Header= () =>{
     )
 }
 
+const RestaurantCard =()=>{
+    return(
+        <div className="restaurant-card">
+            <h3>Meghna Foods</h3>
+        </div>
+    )
+}
+
 const Body =()=>{
     return(
         <div className='body'>
@@ -44,7 +54,7 @@ const Body =()=>{
                 Search
             </div>
             <div className='restaurant-container'>
-                
+                <RestaurantCard/>
             </div>
         </div>
     )
