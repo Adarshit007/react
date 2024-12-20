@@ -35,8 +35,8 @@
 .restaurant-card{
     margin: 3px;
     padding: 3px;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
 }
 
 .restaurant-card:hover{
