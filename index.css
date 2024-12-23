@@ -30,13 +30,13 @@
 .restaurant-container{
     display: flex;
     flex-wrap: wrap ;
+    padding: 2px;
 }
 
 .restaurant-card{
     margin: 3px;
     padding: 3px;
     width: 250px;
-    height: 350px;
 }
 
 .restaurant-card:hover{
@@ -49,6 +49,7 @@
 }  
 
 .res-logo{
-    width: 100%;
+    width: 250px;
+    height: 150px;
     
 }
