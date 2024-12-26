@@ -21,5 +21,20 @@
 
 
 
-
+/**
+ * header
+ *  -Logo
+ * - NAV Items
+ * body 
+ *  - Search
+ *  - RestaurantContainer
+ *    - RestaurantCard
+ *      - image
+ *       -name,star,cuisine,delivery time
+ * Footer
+ * -links
+ * -copyright
+ * -Address
+ * -Contact
+ */
 
