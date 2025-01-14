@@ -34,9 +34,9 @@
 }
 
 .restaurant-card{
-    margin: 3px;
-    padding: 3px;
-    width: 250px;
+    margin: 4px;
+    padding: 2px;
+    width: 200px;
 }
 
 .restaurant-card:hover{
@@ -49,7 +49,15 @@
 }  
 
 .res-logo{
-    width: 250px;
-    height: 150px;
-    
+    width: 195px;
+    height: 165px;
+    padding: 2px;
+}
+
+
+.filter-btn{
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
