@@ -38,3 +38,12 @@
  * -Contact
  */
 
+
+
+there are two types of export/import:=>
+1. default export/import
+1.1 export default component;
+1.2 import component from './component path';
+  2. named export/import
+  2.1 export {component} from './component path';
+  2.2 import {component} from './component path'; in here we have to use {} braaces to import 
